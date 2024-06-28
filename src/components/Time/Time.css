@@ -1,12 +1,16 @@
 .time {
+  position: relative;
+
   padding: 32px;
 
+  background-blend-mode: multiply;
   text-align: center;
 }
 
 .time h3 {
   display: inline-block;
 
+  font-family: "Prata";
   font-size: 32px;
 
   border-bottom: 4px solid;
@@ -18,4 +22,10 @@
   justify-content: space-around;
   margin-top: 32px;
   flex-wrap: wrap;
+}
+
+.input-cor {
+  position: absolute;
+  top: 20px;
+  right: 50px;
 }
