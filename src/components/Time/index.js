@@ -23,12 +23,15 @@ const Time = (props) => {
         {props.colaboradores.map((colaborador, indice) => {
           return (
             <Colaborador
-              corDeFundo={props.cor}
               key={indice}
+              id={colaborador.id}
+              corDeFundo={props.cor}
               nome={colaborador.nome}
               cargo={colaborador.cargo}
               imagem={colaborador.imagem}
+              favorito={colaborador.favorito}
               aoDeletar={props.aoDeletar}
+              aoFavoritar={props.aoFavoritar}
             />
           );
         })}
