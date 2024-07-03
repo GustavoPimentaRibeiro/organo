@@ -19,7 +19,7 @@ Repositório criado com o decorrer do curso `React: desenvolvendo com JavaScript
 
 - Utilize o comando `npm install` para instalar as dependências e instalar as dependências do `React`. Ao terminar de instalar, utilize o comando `npm start`.
 
-## Biblioteca utiliada
+## Biblioteca utilizada
 
 - `React`
 
